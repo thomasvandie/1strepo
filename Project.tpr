@@ -1,0 +1,5 @@
+﻿2,"TOAD project",TRUE,
+	3,C:\gitrepo\private\1strepo\tvandier,C:\gitrepo\private\1strepo\tvandier,TRUE,*.*
+		3,C:\gitrepo\private\1strepo\tvandier\functions,C:\gitrepo\private\1strepo\tvandier\functions,TRUE,*.*
+			6,F_GET_ISSUES.fnc,C:\gitrepo\private\1strepo\tvandier\functions\F_GET_ISSUES.fnc
+	5,"TVANDIER@ONTWDBRMG (TVANDIER)",TVANDIER,ONTWDBRMG,TVANDIER,FALSE,10,FALSE,0
