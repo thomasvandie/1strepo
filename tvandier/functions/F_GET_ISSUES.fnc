@@ -9,6 +9,10 @@ begin
   --bug in this piece of code
   v_ret.extend();
   v_ret(v_ret.count) := t_issue('MARS_2','This is all going so very slow - this is the bugfix','MARS');
+
+  --another bugfix
+  v_ret.extend();
+  v_ret(v_ret.count) := t_issue('MARS_2.1','This is a second bugfix','MARS');
   
   return v_ret;
 end;
