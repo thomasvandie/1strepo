@@ -6,8 +6,9 @@ begin
   v_ret.extend();
   v_ret(v_ret.count) := t_issue('MARS_1','This is an error when looking up a client in the DB','MARS');
   
+  --bug in this piece of code
   v_ret.extend();
-  v_ret(v_ret.count) := t_issue('MARS_2','This is all going so very slow','MARS');
+  v_ret(v_ret.count) := t_issue('MARS_2','This is all going so very slow - this is the bugfix','MARS');
   
   return v_ret;
 end;
